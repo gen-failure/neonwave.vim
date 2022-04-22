@@ -48,7 +48,7 @@ hi Character         ctermfg=207   ctermbg=NONE   cterm=NONE
 hi Conditional       ctermfg=201   ctermbg=NONE   cterm=bold
 hi Comment           ctermfg=244   ctermbg=NONE   cterm=NONE
 hi CursorLine        ctermfg=NONE  ctermbg=235    cterm=NONE
-hi CursorLineNr      ctermfg=45    ctermbg=235    cterm=bold
+hi CursorLineNr      ctermfg=45    ctermbg=NONE   cterm=bold
 hi Define            ctermfg=61    ctermbg=NONE   cterm=NONE
 hi DefinedName       ctermfg=200   ctermbg=NONE   cterm=NONE
 hi Delimiter         ctermfg=207   ctermbg=NONE   cterm=NONE
@@ -69,10 +69,16 @@ hi MatchParen        ctermfg=50    ctermbg=39     cterm=NONE
 hi ModeMsg           ctermfg=46    ctermbg=232    cterm=bold
 hi MoreMsg           ctermfg=46    ctermbg=NONE   cterm=bold
 hi NonText           ctermfg=201   ctermbg=NONE   cterm=NONE
-hi Normal            ctermfg=105   ctermbg=234    cterm=NONE
+hi Normal            ctermfg=152   ctermbg=16    cterm=NONE
+hi NormalFloat       ctermbg=232
 hi Number            ctermfg=31    ctermbg=NONE   cterm=NONE
 hi Operator          ctermfg=39    ctermbg=NONE   cterm=NONE
-
+hi FoldColumn        ctermbg=None  ctermfg=51
+hi Folded            ctermbg=235
+hi IndentGuidesOdd ctermbg=235
+hi IndentGuidesEven ctermbg=236
+hi CocInfoSign ctermfg=208
+hi NormalFloat ctermbg=235
 " For matching over X length of chars; non-essential.
 " That is, if you have a match property in your vimrc.
 hi OverLength        ctermfg=46    ctermbg=234    cterm=bold
@@ -90,7 +96,7 @@ hi pythonStatement   ctermfg=45    ctermbg=NONE   cterm=bold
 hi Question          ctermfg=46    ctermbg=232    cterm=bold
 hi Repeat            ctermfg=201   ctermbg=NONE   cterm=bold
 hi Search            ctermfg=232   ctermbg=33     cterm=NONE
-hi SignColumn        ctermfg=46    ctermbg=234    cterm=NONE
+hi SignColumn        ctermfg=46    ctermbg=None    cterm=NONE
 hi Special           ctermfg=13    ctermbg=NONE   cterm=NONE
 hi SpecialChar       ctermfg=165   ctermbg=NONE   cterm=NONE
 hi SpecialComment    ctermfg=231   ctermbg=NONE   cterm=NONE
